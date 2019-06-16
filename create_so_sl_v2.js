@@ -2,8 +2,12 @@
  *@NApiVersion 2.x
  *@NScriptType Suitelet
  */
-define(['N/ui/serverWidget', 'N/runtime', 'N/task', 'N/search', 'N/record'],
-    function(ui, runtime, task, search, record) {
+define(['N/record'],
+    function(record) {
+        /*
+        simple way of creating Sales Order
+        in real case, the fields will be much more than this sample
+        */
         function onRequest(context) {
             var soObj = record.create({type:'salesorder'});
             // this can be ignored so the tranid is automatically generated
