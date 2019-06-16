@@ -8,8 +8,8 @@ function create_so(request, response) {
     soObj.setFieldValue('tranid', 'SO-00001');
     /* set to 31 January 2019.
     the format of the date depends on the date setting on your Netsuite. 
-    if the format of the date setting is dd/mm/yyyy, it will be 31/01/2019.
-    if the format of the date setting is mm/dd/yyyy, it will be 01/31/2019.
+    if the format of the date setting is d/m/yyyy, it will be 31/1/2019.
+    if the format of the date setting is m/d/yyyy, it will be 1/31/2019.
     */
     soObj.setFieldValue('trandate', '31/01/2019');
     // the ID of the customer, not the name
