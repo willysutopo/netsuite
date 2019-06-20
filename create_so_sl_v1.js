@@ -11,7 +11,7 @@ function create_so(request, response) {
     if the format of the date setting is d/m/yyyy, it will be 31/1/2019.
     if the format of the date setting is m/d/yyyy, it will be 1/31/2019.
     */
-    soObj.setFieldValue('trandate', '31/01/2019');
+    soObj.setFieldValue('trandate', '31/1/2019');
     // the ID of the customer, not the name
     soObj.setFieldValue('entity', '1000001');
     // set ID of the location
