@@ -12,5 +12,3 @@ suitescripttype can be one of these :
 
 and suitescriptversion can be one of v1 and v2.
 For example : Suitelet to create Sales Order is named like this : create_so_sl_v1
-
-In the future, I will add a sample script which calls Netsuite Restlet API. Just stay tuned.
